@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Booking — ESLAM BSISA PHOTOGRAPHY</title>
+  <meta name="description" content="Inquire and reserve your photography session with Eslam Bsisa via WhatsApp, direct call, or our online reservation form." />
+  
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Contact & Booking — ESLAM BSISA PHOTOGRAPHY" />
+  <meta property="og:description" content="Reserve your wedding or portrait photography session." />
+  <meta property="og:image" content="assets/images/hero/hero-main.jpg" />
+  
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/rtl.css" />
+</head>
+<body data-page="contact">
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo-link" aria-label="Eslam Bsisa Photography Home">
+        <div class="brand-monogram">EB</div>
+        <div class="brand-name-group">
+          <span class="brand-name-title">ESLAM BSISA</span>
+          <span class="brand-name-sub">P H O T O G R A P H Y</span>
+        </div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link" data-i18n="nav_home">Home</a>
+        <a href="work.html" class="nav-link" data-i18n="nav_work">My Work</a>
+        <a href="locations.html" class="nav-link" data-i18n="nav_locations">Locations</a>
+        <a href="about.html" class="nav-link" data-i18n="nav_about">About</a>
+        <a href="contact.html" class="nav-link active" data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switcher" aria-label="Switch Language">
+          <button type="button" class="lang-btn active" data-lang="en">EN</button>
+          <button type="button" class="lang-btn" data-lang="ar">عربي</button>
+        </div>
+        <a href="contact.html" class="btn btn-primary btn-sm header-cta" data-i18n="nav_book_cta">Book a Session</a>
+        <button type="button" class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-backdrop"></div>
+  <aside class="mobile-nav-drawer" aria-label="Mobile Navigation Drawer">
+    <div class="mobile-nav-links">
+      <a href="index.html" class="nav-link" data-i18n="nav_home">Home</a>
+      <a href="work.html" class="nav-link" data-i18n="nav_work">My Work</a>
+      <a href="locations.html" class="nav-link" data-i18n="nav_locations">Locations</a>
+      <a href="about.html" class="nav-link" data-i18n="nav_about">About</a>
+      <a href="contact.html" class="nav-link active" data-i18n="nav_contact">Contact</a>
+      <a href="admin/index.html" class="nav-link" style="color:var(--gold-accent);" data-i18n="nav_admin">Admin CMS</a>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main style="padding-top: calc(var(--header-height) + 3rem);">
+    <section class="section" style="padding-top:2rem;">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="contact_page_label">Get In Touch</span>
+          <h1 class="section-title serif-font" data-i18n="contact_page_title">Reserve Your Date</h1>
+          <p class="section-subtitle" data-i18n="contact_page_subtitle">
+            Every unforgettable story begins with a conversation. Let us create timeless fine art together.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Cards -->
+          <div class="contact-card">
+            <h3 class="serif-font" style="font-size:1.6rem; color:#fff; margin-bottom:2rem;">
+              Direct Inquiries
+            </h3>
+
+            <div class="contact-info-list">
+              <!-- WhatsApp -->
+              <div class="contact-info-item">
+                <div class="contact-info-icon">💬</div>
+                <div>
+                  <div class="contact-info-label" data-i18n="contact_whatsapp_label">Instant WhatsApp</div>
+                  <a href="#" class="contact-info-value wa-link-btn" id="contact-whatsapp-val">+20 101 234 5678</a>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="contact-info-item">
+                <div class="contact-info-icon">📞</div>
+                <div>
+                  <div class="contact-info-label" data-i18n="contact_phone_label">Direct Phone Call</div>
+                  <a href="tel:+201012345678" class="contact-info-value" id="contact-phone-val">+20 101 234 5678</a>
+                </div>
+              </div>
+
+              <!-- Studio Address -->
+              <div class="contact-info-item">
+                <div class="contact-info-icon">📍</div>
+                <div>
+                  <div class="contact-info-label" data-i18n="contact_studio_label">Studio Locations</div>
+                  <div class="contact-info-value" id="contact-address-val" style="font-weight:400; font-size:0.95rem;">
+                    Zamalek & New Cairo Studios, Cairo, Egypt
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="border-top:1px solid var(--border-subtle); padding-top:2rem;">
+              <div class="contact-info-label" style="margin-bottom:1rem;" data-i18n="contact_social_label">Follow Our Work</div>
+              <div class="social-links-row">
+                <a href="https://instagram.com" class="social-link-btn instagram-link" aria-label="Instagram">📸</a>
+                <a href="https://facebook.com" class="social-link-btn facebook-link" aria-label="Facebook">📘</a>
+                <a href="#" class="social-link-btn wa-link-btn" aria-label="WhatsApp">💬</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Booking Form -->
+          <div class="contact-card" style="border-color:var(--gold-border);">
+            <h3 class="serif-font" style="font-size:1.6rem; color:#fff; margin-bottom:1.5rem;" data-i18n="contact_form_title">
+              Session Reservation Inquiry
+            </h3>
+
+            <form id="booking-reservation-form" class="booking-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="booking-name" class="form-label" data-i18n="form_name">Full Name</label>
+                  <input type="text" id="booking-name" class="form-input" required placeholder="Sara Ahmed" />
+                </div>
+                <div class="form-group">
+                  <label for="booking-phone" class="form-label" data-i18n="form_phone">Phone / WhatsApp Number</label>
+                  <input type="tel" id="booking-phone" class="form-input" required placeholder="+20 10..." />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="booking-session-type" class="form-label" data-i18n="form_type">Session Type</label>
+                  <select id="booking-session-type" class="form-select" required>
+                    <option value="" disabled selected data-i18n="form_select_type">Select Session Category</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="booking-date" class="form-label" data-i18n="form_date">Preferred Date</label>
+                  <input type="date" id="booking-date" class="form-input" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="booking-session-location" class="form-label" data-i18n="form_location">Preferred Location / Venue</label>
+                <select id="booking-session-location" class="form-select">
+                  <option value="">Select or specify location</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="booking-notes" class="form-label" data-i18n="form_message">Tell Us About Your Vision</label>
+                <textarea id="booking-notes" class="form-textarea" rows="4" placeholder="Tell us about your wedding venue, session style, or expected guest count..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width:100%;">
+                <span>💬</span>
+                <span data-i18n="form_submit_whatsapp">Send Inquiry via WhatsApp</span>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div style="margin-top:6rem;">
+          <div class="section-header">
+            <span class="section-label">Frequently Asked Questions</span>
+            <h2 class="serif-font section-title">Booking & Session Details</h2>
+          </div>
+
+          <div style="max-width:840px; margin:0 auto; display:flex; flex-direction:column; gap:1.25rem;">
+            <div style="background:var(--bg-card); padding:1.75rem; border-radius:var(--radius-sm); border:1px solid var(--border-subtle);">
+              <h4 style="font-size:1.1rem; color:var(--gold-light); margin-bottom:0.5rem;">How far in advance should we reserve our wedding date?</h4>
+              <p style="color:#bbb; font-size:0.9rem; line-height:1.7;">
+                Due to high demand for peak wedding seasons in Egypt (Spring and Autumn), we recommend booking 3 to 6 months in advance to ensure our lead team's availability.
+              </p>
+            </div>
+
+            <div style="background:var(--bg-card); padding:1.75rem; border-radius:var(--radius-sm); border:1px solid var(--border-subtle);">
+              <h4 style="font-size:1.1rem; color:var(--gold-light); margin-bottom:0.5rem;">When and how do we receive our final edited gallery?</h4>
+              <p style="color:#bbb; font-size:0.9rem; line-height:1.7;">
+                You will receive a curated sneak peek gallery within 48 to 72 hours following your session. Full high-resolution color-graded collections and private cloud access are typically delivered within 3 to 4 weeks.
+              </p>
+            </div>
+
+            <div style="background:var(--bg-card); padding:1.75rem; border-radius:var(--radius-sm); border:1px solid var(--border-subtle);">
+              <h4 style="font-size:1.1rem; color:var(--gold-light); margin-bottom:0.5rem;">Do you travel outside Cairo for destination weddings?</h4>
+              <p style="color:#bbb; font-size:0.9rem; line-height:1.7;">
+                Yes! We regularly travel across Alexandria, El Gouna, Sharm El Sheikh, Luxor, Aswan, Upper Egypt (Minya), and international destinations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="brand-monogram" style="margin-bottom:1rem;">EB</div>
+          <h3 class="brand-name-title">ESLAM BSISA</h3>
+          <p class="footer-brand-desc">
+            Capturing timeless luxury weddings, destination engagements, and editorial portraits across Cairo, Alexandria, and worldwide.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer_quick_links">Quick Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="index.html" class="footer-nav-link" data-i18n="nav_home">Home</a></li>
+            <li><a href="work.html" class="footer-nav-link" data-i18n="nav_work">My Work</a></li>
+            <li><a href="locations.html" class="footer-nav-link" data-i18n="nav_locations">Locations</a></li>
+            <li><a href="about.html" class="footer-nav-link" data-i18n="nav_about">About</a></li>
+            <li><a href="contact.html" class="footer-nav-link" data-i18n="nav_contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer_categories">Portfolio</h4>
+          <ul class="footer-nav-list">
+            <li><a href="work.html?category=weddings" class="footer-nav-link">Weddings</a></li>
+            <li><a href="work.html?category=engagement" class="footer-nav-link">Engagement</a></li>
+            <li><a href="work.html?category=outdoor-sessions" class="footer-nav-link">Outdoor Sessions</a></li>
+            <li><a href="work.html?category=portraits" class="footer-nav-link">Portraits</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer_contact_info">Contact & Social</h4>
+          <div class="social-links-row" style="margin-bottom:1.5rem;">
+            <a href="https://instagram.com" class="social-link-btn instagram-link" aria-label="Instagram">📸</a>
+            <a href="https://facebook.com" class="social-link-btn facebook-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link-btn wa-link-btn" aria-label="WhatsApp">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 ESLAM BSISA PHOTOGRAPHY. <span data-i18n="footer_copyright">All Rights Reserved.</span></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/storage.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

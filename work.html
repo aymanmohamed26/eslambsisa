@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Work — ESLAM BSISA PHOTOGRAPHY Portfolio</title>
+  <meta name="description" content="Explore our extensive visual portfolio featuring luxury weddings, sunset engagement sessions, high-fashion portraits, and outdoor fine art across Egypt." />
+  
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="My Work — ESLAM BSISA PHOTOGRAPHY" />
+  <meta property="og:description" content="Explore our signature wedding and editorial photography portfolios." />
+  <meta property="og:image" content="assets/images/hero/hero-main.jpg" />
+  
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/rtl.css" />
+</head>
+<body data-page="work">
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo-link" aria-label="Eslam Bsisa Photography Home">
+        <div class="brand-monogram">EB</div>
+        <div class="brand-name-group">
+          <span class="brand-name-title">ESLAM BSISA</span>
+          <span class="brand-name-sub">P H O T O G R A P H Y</span>
+        </div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link" data-i18n="nav_home">Home</a>
+        <a href="work.html" class="nav-link active" data-i18n="nav_work">My Work</a>
+        <a href="locations.html" class="nav-link" data-i18n="nav_locations">Locations</a>
+        <a href="about.html" class="nav-link" data-i18n="nav_about">About</a>
+        <a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switcher" aria-label="Switch Language">
+          <button type="button" class="lang-btn active" data-lang="en">EN</button>
+          <button type="button" class="lang-btn" data-lang="ar">عربي</button>
+        </div>
+        <a href="contact.html" class="btn btn-primary btn-sm header-cta" data-i18n="nav_book_cta">Book a Session</a>
+        <button type="button" class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-backdrop"></div>
+  <aside class="mobile-nav-drawer" aria-label="Mobile Navigation Drawer">
+    <div class="mobile-nav-links">
+      <a href="index.html" class="nav-link" data-i18n="nav_home">Home</a>
+      <a href="work.html" class="nav-link active" data-i18n="nav_work">My Work</a>
+      <a href="locations.html" class="nav-link" data-i18n="nav_locations">Locations</a>
+      <a href="about.html" class="nav-link" data-i18n="nav_about">About</a>
+      <a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a>
+      <a href="admin/index.html" class="nav-link" style="color:var(--gold-accent);" data-i18n="nav_admin">Admin CMS</a>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main style="padding-top: calc(var(--header-height) + 3rem);">
+    <section class="section" style="padding-top:2rem;">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="work_page_label">Complete Portfolio</span>
+          <h1 class="section-title serif-font" data-i18n="work_page_title">Curated Visual Stories</h1>
+          <p class="section-subtitle" data-i18n="work_page_subtitle">
+            Browse through our collection of royal weddings, sunset engagements, high-fashion portraits, and outdoor fine art.
+          </p>
+        </div>
+
+        <!-- Search Bar -->
+        <div style="max-width:540px; margin:0 auto 2.5rem; position:relative;">
+          <input 
+            type="text" 
+            id="work-search-input" 
+            class="form-input" 
+            placeholder="Search sessions by title or location..." 
+            data-i18n-placeholder="search_placeholder"
+            style="border-radius:var(--radius-pill); padding-left:1.5rem; padding-right:1.5rem; background:rgba(255,255,255,0.04);"
+          />
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="filter-tabs-wrapper" id="category-filter-tabs">
+          <!-- Populated dynamically via app.js -->
+        </div>
+
+        <!-- Sessions Grid -->
+        <div class="sessions-grid" id="work-sessions-grid">
+          <!-- Populated dynamically via app.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="brand-monogram" style="margin-bottom:1rem;">EB</div>
+          <h3 class="brand-name-title">ESLAM BSISA</h3>
+          <p class="footer-brand-desc">
+            Capturing timeless luxury weddings, destination engagements, and editorial portraits across Cairo, Alexandria, and worldwide.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer_quick_links">Quick Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="index.html" class="footer-nav-link" data-i18n="nav_home">Home</a></li>
+            <li><a href="work.html" class="footer-nav-link" data-i18n="nav_work">My Work</a></li>
+            <li><a href="locations.html" class="footer-nav-link" data-i18n="nav_locations">Locations</a></li>
+            <li><a href="about.html" class="footer-nav-link" data-i18n="nav_about">About</a></li>
+            <li><a href="contact.html" class="footer-nav-link" data-i18n="nav_contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer_categories">Portfolio</h4>
+          <ul class="footer-nav-list">
+            <li><a href="work.html?category=weddings" class="footer-nav-link">Weddings</a></li>
+            <li><a href="work.html?category=engagement" class="footer-nav-link">Engagement</a></li>
+            <li><a href="work.html?category=outdoor-sessions" class="footer-nav-link">Outdoor Sessions</a></li>
+            <li><a href="work.html?category=portraits" class="footer-nav-link">Portraits</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer_contact_info">Contact & Social</h4>
+          <div class="social-links-row" style="margin-bottom:1.5rem;">
+            <a href="https://instagram.com" class="social-link-btn instagram-link" aria-label="Instagram">📸</a>
+            <a href="https://facebook.com" class="social-link-btn facebook-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link-btn wa-link-btn" aria-label="WhatsApp">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 ESLAM BSISA PHOTOGRAPHY. <span data-i18n="footer_copyright">All Rights Reserved.</span></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/storage.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "weddings",
+    "name": "Weddings",
+    "nameAr": "حفلات زفاف",
+    "description": "Grand celebrations, emotional vows, and timeless royal romance.",
+    "descriptionAr": "احتفالات الزفاف الفاخرة، المشاعر الصادقة، واللحظات الملكية الخالدة."
+  },
+  {
+    "id": "engagement",
+    "name": "Engagement",
+    "nameAr": "خطوبة",
+    "description": "Intimate love stories, sunset vows, and romantic beginning chapters.",
+    "descriptionAr": "قصص حب دافئة، جلسات الغروب الشاعرية، وبداية أجمل الفصول."
+  },
+  {
+    "id": "outdoor-sessions",
+    "name": "Outdoor Sessions",
+    "nameAr": "جلسات خارجية",
+    "description": "Natural golden light, desert horizons, and scenic outdoor aesthetics.",
+    "descriptionAr": "سحر الإضاءة الذهبية الطبيعية، أفق الصحراء، وجمال الطبيعة المفتوحة."
+  },
+  {
+    "id": "portraits",
+    "name": "Portraits",
+    "nameAr": "بورتريه",
+    "description": "High-fashion editorial, creative chiaroscuro, and striking personality portraits.",
+    "descriptionAr": "بورتريه فني بطابع مجلات الأزياء العالمية وإضاءات سينمائية مبهرة."
+  },
+  {
+    "id": "graduation",
+    "name": "Graduation",
+    "nameAr": "تخرج",
+    "description": "Celebrating milestones of ambition, pride, and bright new beginnings.",
+    "descriptionAr": "توثيق لحظات التتويج، الفرح العارم، وفخر الإنجاز وبداية المستقبل."
+  },
+  {
+    "id": "events",
+    "name": "Events",
+    "nameAr": "مناسبات وفعاليات",
+    "description": "Corporate galas, luxury fashion shows, and VIP gatherings.",
+    "descriptionAr": "المؤتمرات الراقية، عروض الأزياء الكبرى، والفعاليات الحصرية."
+  },
+  {
+    "id": "product-photography",
+    "name": "Product Photography",
+    "nameAr": "تصوير منتجات",
+    "description": "Bespoke jewelry, luxury perfume, and commercial product campaigns.",
+    "descriptionAr": "تصوير المجوهرات، العطور الفاخرة، والحملات الدعائية التجارية المميزة."
+  },
+  {
+    "id": "family-sessions",
+    "name": "Family Sessions",
+    "nameAr": "جلسات عائلية",
+    "description": "Warm generational portraits and precious bond-capturing memories.",
+    "descriptionAr": "ذكريات عائلية دافئة تجمع أجيال العائلة بأسمى مشاعر المحبة."
+  }
+]

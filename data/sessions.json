@@ -1,0 +1,159 @@
+[
+  {
+    "id": "wedding-karim-nour",
+    "title": "Karim & Nour – Royal Palace Wedding",
+    "titleAr": "حفل زفاف كريم ونور – القصر الملكي",
+    "category": "weddings",
+    "locationId": "cairo",
+    "date": "2026-09-18",
+    "featured": true,
+    "published": true,
+    "coverImage": "assets/images/sessions/wedding-karim-nour/cover.jpg",
+    "description": "An unforgettable celebration of royal love inside an iconic historic palace in Cairo. The evening was defined by golden crystal chandeliers, soft candlelit corridors, and deep emotional vows shared under the stars.",
+    "descriptionAr": "احتفال استثنائي بحب ملكي داخل أحد أعرق قصور القاهرة التاريخية. تميزت الأمسية ببريق الثريات الكريستالية، أروقة الشموع الدافئة، ووعود حب صادقة كُتبت تحت أضواء النجوم.",
+    "photos": [
+      "assets/images/sessions/wedding-karim-nour/cover.jpg",
+      "assets/images/sessions/wedding-karim-nour/photo-1.jpg",
+      "assets/images/sessions/wedding-karim-nour/photo-2.jpg",
+      "assets/images/sessions/wedding-karim-nour/photo-3.jpg",
+      "assets/images/sessions/wedding-karim-nour/photo-4.jpg",
+      "assets/images/sessions/wedding-karim-nour/photo-5.jpg"
+    ]
+  },
+  {
+    "id": "engagement-ahmed-sara",
+    "title": "Ahmed & Sara – Golden Sunset Dunes",
+    "titleAr": "خطوبة أحمد وسارة – كثبان الغروب الذهبية",
+    "category": "engagement",
+    "locationId": "giza",
+    "date": "2026-10-05",
+    "featured": true,
+    "published": true,
+    "coverImage": "assets/images/sessions/engagement-ahmed-sara/cover.jpg",
+    "description": "A cinematic sunset engagement session nestled within the golden desert ridges of Giza. Gentle desert breezes, warm sunset gradients, and pure intimate joy between two destined souls.",
+    "descriptionAr": "جلسة خطوبة سينمائية ساحرة بين كثبان الرمال الذهبية في الجيزة عند الغروب. نسيم هادئ وتدرجات ألوان الغروب الدافئة مع مشاعر حب وفرح عفوية خالصة.",
+    "photos": [
+      "assets/images/sessions/engagement-ahmed-sara/cover.jpg",
+      "assets/images/sessions/engagement-ahmed-sara/photo-1.jpg",
+      "assets/images/sessions/engagement-ahmed-sara/photo-2.jpg",
+      "assets/images/sessions/engagement-ahmed-sara/photo-3.jpg",
+      "assets/images/sessions/engagement-ahmed-sara/photo-4.jpg"
+    ]
+  },
+  {
+    "id": "alexandria-royal-bride",
+    "title": "Yasmine – Mediterranean Royal Bride",
+    "titleAr": "العروس ياسمين – سحر البحر الأبيض المتوسط",
+    "category": "weddings",
+    "locationId": "alexandria",
+    "date": "2026-08-22",
+    "featured": true,
+    "published": true,
+    "coverImage": "assets/images/sessions/alexandria-royal-bride/cover.jpg",
+    "description": "An aristocratic bridal editorial against the majestic backdrop of Montaza Palace gardens and Alexandria's deep turquoise waves. A celebration of timeless lace, graceful silhouettes, and Mediterranean romance.",
+    "descriptionAr": "جلسة تصوير عروس ملكية وسط حدائق قصر المنتزه الشاسعة وأمواج بحر الإسكندرية الفيروزية. تجسيد حقيقي لأناقة الدانتيل الراقي والفخامة الكلاسيكية.",
+    "photos": [
+      "assets/images/sessions/alexandria-royal-bride/cover.jpg",
+      "assets/images/sessions/alexandria-royal-bride/photo-1.jpg",
+      "assets/images/sessions/alexandria-royal-bride/photo-2.jpg",
+      "assets/images/sessions/alexandria-royal-bride/photo-3.jpg",
+      "assets/images/sessions/alexandria-royal-bride/photo-4.jpg"
+    ]
+  },
+  {
+    "id": "outdoor-sunset-giza",
+    "title": "Tariq & Maya – Romantic Countryside Escape",
+    "titleAr": "طارق ومايا – رومانسية الطبيعة الهادئة",
+    "category": "outdoor-sessions",
+    "locationId": "giza",
+    "date": "2026-07-14",
+    "featured": true,
+    "published": true,
+    "coverImage": "assets/images/sessions/outdoor-sunset-giza/cover.jpg",
+    "description": "Captured in a private equestrian estate in Giza surrounded by lush greenery, noble Arabian horses, and organic golden light. A modern outdoor narrative celebrating quiet romance.",
+    "descriptionAr": "جلسة تصوير خارجية في مزرعة ريفية راقية بالجيزة، محاطة بالطبيعة الخضراء والخيول العربية الأصيلة مع إضاءة الغروب الطبيعية الدافئة.",
+    "photos": [
+      "assets/images/sessions/outdoor-sunset-giza/cover.jpg",
+      "assets/images/sessions/outdoor-sunset-giza/photo-1.jpg",
+      "assets/images/sessions/outdoor-sunset-giza/photo-2.jpg",
+      "assets/images/sessions/outdoor-sunset-giza/photo-3.jpg",
+      "assets/images/sessions/outdoor-sunset-giza/photo-4.jpg"
+    ]
+  },
+  {
+    "id": "portrait-editorial-cairo",
+    "title": "Malak – High-Fashion Vogue Editorial",
+    "titleAr": "ملك – جلسة بورتريه أزياء إبداعية",
+    "category": "portraits",
+    "locationId": "cairo",
+    "date": "2026-09-02",
+    "featured": false,
+    "published": true,
+    "coverImage": "assets/images/sessions/portrait-editorial-cairo/cover.jpg",
+    "description": "A high-concept studio and architectural portrait series exploring chiaroscuro lighting, bold geometries, and haute couture confidence in the heart of contemporary Cairo.",
+    "descriptionAr": "سلسلة بورتريه فني بطابع أزياء معاصر يمزج بين الضوء والظل، والخطوط المعمارية الجريئة، والأناقة العصرية في قلب القاهرة.",
+    "photos": [
+      "assets/images/sessions/portrait-editorial-cairo/cover.jpg",
+      "assets/images/sessions/portrait-editorial-cairo/photo-1.jpg",
+      "assets/images/sessions/portrait-editorial-cairo/photo-2.jpg",
+      "assets/images/sessions/portrait-editorial-cairo/photo-3.jpg"
+    ]
+  },
+  {
+    "id": "graduation-future-stars",
+    "title": "Faculty of Medicine – Class of Honor Graduation",
+    "titleAr": "دفعة الشرف لكلية الطب – لحظات التخرج والفخر",
+    "category": "graduation",
+    "locationId": "cairo",
+    "date": "2026-07-28",
+    "featured": false,
+    "published": true,
+    "coverImage": "assets/images/sessions/graduation-future-stars/cover.jpg",
+    "description": "Immortalizing the hard-earned triumph of upcoming medical doctors. Joyous group portraits, celebratory mortarboards soaring in the sky, and genuine proud smiles.",
+    "descriptionAr": "توثيق فرحة التتويج المستحقة لأطباء المستقبل بعد سنوات من الجد والاجتهاد. لقطات جماعية مليئة بالبهجة وقبعات تخرج تحلق في سماء الإنجاز.",
+    "photos": [
+      "assets/images/sessions/graduation-future-stars/cover.jpg",
+      "assets/images/sessions/graduation-future-stars/photo-1.jpg",
+      "assets/images/sessions/graduation-future-stars/photo-2.jpg",
+      "assets/images/sessions/graduation-future-stars/photo-3.jpg"
+    ]
+  },
+  {
+    "id": "fineart-minya-nile",
+    "title": "Omar & Farida – Whispers of the Nile",
+    "titleAr": "عمر وفريدة – همسات النيل الساحرة بالمنيا",
+    "category": "outdoor-sessions",
+    "locationId": "minya",
+    "date": "2026-10-19",
+    "featured": true,
+    "published": true,
+    "coverImage": "assets/images/sessions/fineart-minya-nile/cover.jpg",
+    "description": "An enchanting sunset felucca ride gliding across the serene waters of the Nile in Minya. Warm reflections, poetic stillness, and authentic southern Egyptian hospitality.",
+    "descriptionAr": "جلسة تصوير شاعرية على متن فلوكة نيلية تنساب في مياه النيل الهادئة بالمنيا عند الغروب. انعكاسات ساحرة وهدوء شاعري يجسد أصالة وسحر الصعيد.",
+    "photos": [
+      "assets/images/sessions/fineart-minya-nile/cover.jpg",
+      "assets/images/sessions/fineart-minya-nile/photo-1.jpg",
+      "assets/images/sessions/fineart-minya-nile/photo-2.jpg",
+      "assets/images/sessions/fineart-minya-nile/photo-3.jpg"
+    ]
+  },
+  {
+    "id": "luxury-product-jewelry",
+    "title": "Aura Royale – Handcrafted Diamond & Gold Collection",
+    "titleAr": "أورا رويال – تصوير مجوهرات الماس والذهب الفاخرة",
+    "category": "product-photography",
+    "locationId": "cairo",
+    "date": "2026-08-10",
+    "featured": false,
+    "published": true,
+    "coverImage": "assets/images/sessions/luxury-product-jewelry/cover.jpg",
+    "description": "High-precision commercial macro photography highlighting the fire of brilliant-cut diamonds, rich yellow gold textures, and bespoke gemstone craftsmanship.",
+    "descriptionAr": "تصوير تجاري فائق الدقة يبرز بريق قطع الألماس النادرة، ملمس الذهب الخالص وتفاصيل الصياغة اليدوية الراقية للمجوهرات الفاخرة.",
+    "photos": [
+      "assets/images/sessions/luxury-product-jewelry/cover.jpg",
+      "assets/images/sessions/luxury-product-jewelry/photo-1.jpg",
+      "assets/images/sessions/luxury-product-jewelry/photo-2.jpg",
+      "assets/images/sessions/luxury-product-jewelry/photo-3.jpg"
+    ]
+  }
+]

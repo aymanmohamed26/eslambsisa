@@ -1,0 +1,42 @@
+[
+  {
+    "id": "cairo",
+    "name": "Cairo",
+    "nameAr": "القاهرة",
+    "governorate": "Cairo Governorate",
+    "governorateAr": "محافظة القاهرة",
+    "coverImage": "assets/images/locations/cairo.jpg",
+    "description": "Historic royal palaces, upscale five-star hotels in New Cairo, and the timeless heritage architecture of historic Cairo.",
+    "descriptionAr": "القصور الملكية التاريخية، الفنادق الفاخرة بالتجمع الخامس، وتفاصيل العمارة التراثية العريقة في المعز والزمالك."
+  },
+  {
+    "id": "giza",
+    "name": "Giza",
+    "nameAr": "الجيزة",
+    "governorate": "Giza Governorate",
+    "governorateAr": "محافظة الجيزة",
+    "coverImage": "assets/images/locations/giza.jpg",
+    "description": "Golden sand dunes, breathtaking sunset vistas against the Pyramids, and tranquil private equestrian countryside retreats.",
+    "descriptionAr": "الكثبان الرملية الذهبية، وإطلالات الغروب المهيبة أمام الأهرامات، والمنتجعات الريفية الهادئة ونوادي الفروسية."
+  },
+  {
+    "id": "alexandria",
+    "name": "Alexandria",
+    "nameAr": "الإسكندرية",
+    "governorate": "Alexandria Governorate",
+    "governorateAr": "محافظة الإسكندرية",
+    "coverImage": "assets/images/locations/alexandria.jpg",
+    "description": "Mediterranean sea breeze, historic Montaza royal gardens, iconic Stanley Bridge, and classical seaside romanticism.",
+    "descriptionAr": "نسيم البحر الأبيض المتوسط، حدائق المنتزه الملكية الشاسعة، كوبري ستانلي، وسحر الإسكندرية الرومانسي الكلاسيكي."
+  },
+  {
+    "id": "minya",
+    "name": "Minya",
+    "nameAr": "المنيا",
+    "governorate": "Minya Governorate",
+    "governorateAr": "محافظة المنيا",
+    "coverImage": "assets/images/locations/minya.jpg",
+    "description": "The bride of Upper Egypt, featuring serene Nile reflections, vintage felucca rides, and classical aristocratic mansions.",
+    "descriptionAr": "عروس الصعيد بإطلالات النيل الهادئة الساحرة، رحلات الفلوكة في الغروب، والقصور الأرستقراطية التاريخية."
+  }
+]

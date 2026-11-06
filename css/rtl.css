@@ -1,0 +1,105 @@
+/* ==========================================================================
+   ESLAM BSISA PHOTOGRAPHY - ARABIC RTL STYLESHEET
+   ========================================================================== */
+
+html[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] body {
+  font-family: var(--font-arabic-body);
+}
+
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] h4,
+html[dir="rtl"] .serif-font,
+html[dir="rtl"] .section-title,
+html[dir="rtl"] .brand-name-title {
+  font-family: var(--font-arabic-heading);
+  letter-spacing: 0;
+}
+
+html[dir="rtl"] .section-label {
+  letter-spacing: 1px;
+}
+
+html[dir="rtl"] .btn {
+  letter-spacing: 0.5px;
+}
+
+/* Nav Drawer in RTL */
+html[dir="rtl"] .mobile-nav-drawer {
+  right: auto;
+  left: -100%;
+  border-left: none;
+  border-right: 1px solid var(--border-subtle);
+  transition: left var(--transition-normal);
+  box-shadow: 10px 0 40px rgba(0, 0, 0, 0.8);
+}
+
+html[dir="rtl"] .mobile-nav-drawer.open {
+  right: auto;
+  left: 0;
+}
+
+html[dir="rtl"] .session-badge-group {
+  left: auto;
+  right: 1rem;
+}
+
+html[dir="rtl"] .view-session-link {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .view-session-link:hover {
+  gap: 0.7rem;
+}
+
+/* Arrow flips in RTL */
+html[dir="rtl"] .arrow-icon-flip {
+  transform: rotate(180deg);
+}
+
+/* Footer in RTL */
+html[dir="rtl"] .footer-col-title::after {
+  left: auto;
+  right: 0;
+}
+
+html[dir="rtl"] .footer-nav-link:hover {
+  padding-left: 0;
+  padding-right: 4px;
+}
+
+/* Toast in RTL */
+html[dir="rtl"] .toast-container {
+  right: auto;
+  left: 2rem;
+}
+
+@keyframes slideInToastRTL {
+  from { transform: translateX(-100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+html[dir="rtl"] .toast {
+  animation: slideInToastRTL 0.3s ease forwards;
+}
+
+/* Experience Badge in RTL */
+html[dir="rtl"] .about-experience-badge {
+  right: auto;
+  left: 2rem;
+}
+
+/* Form alignment */
+html[dir="rtl"] .form-label {
+  letter-spacing: 0;
+}
+
+html[dir="rtl"] .section-header-left {
+  text-align: right;
+}
